@@ -16,6 +16,12 @@
         android:theme="@style/Theme.Retrofit_recipe_test"
         tools:targetApi="31">
         <activity
+            android:name=".activities.RecipeItemActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.CategoryItemActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
